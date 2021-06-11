@@ -1,0 +1,26 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+.Feadback-title {
+  font-size: 25px;
+  text-align: center;
+}
+.Button-container {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
+.Button {
+  border: none;
+  width: 100px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgb(90, 170, 153);
+  color: white;
+  cursor: pointer;
+}
